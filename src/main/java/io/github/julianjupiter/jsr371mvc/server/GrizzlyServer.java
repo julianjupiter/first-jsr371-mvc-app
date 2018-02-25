@@ -14,9 +14,9 @@ import org.slf4j.LoggerFactory;
 import io.github.julianjupiter.jsr371mvc.config.ApplicationResourceConfig;
 
 public class GrizzlyServer {    
-	private static Logger logger = LoggerFactory.getLogger(GrizzlyServer.class);
-	private static final String APP_NAME = "Hello World";
-	private static URI baseUri;
+    private static Logger logger = LoggerFactory.getLogger(GrizzlyServer.class);
+    private static final String APP_NAME = "First JSR 371 MVC App";
+    private static URI baseUri;
     private static final String PROTOCOL = "http://";
     private static final String HOST = "localhost";
     private static final String PATH = "/app";
