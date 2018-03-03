@@ -2,7 +2,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>hello.world</groupId>
+    <groupId>io.github.julianjupiter.jsr371mvc</groupId>
     <artifactId>first-jsr371-mvc-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -111,6 +111,10 @@
     </dependencies>
     <build>
         <resources>
+            <resource>
+                <targetPath>web</targetPath>
+                <directory>src/main/web</directory>
+            </resource>
             <resource>
                 <directory>src/main/resources</directory>
             </resource>
